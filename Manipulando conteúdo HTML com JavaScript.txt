@@ -1,0 +1,90 @@
+1 - Você está lidando com a interação entre o HTML e o JavaScript para tornar a interface de usuário mais dinâmica e interativa. No entanto, você gostaria de mudar o título do seu aplicativo de forma dinâmica com o JavaScript.
+
+Qual código JavaScript você usaria para alterar o texto exibido no cabeçalho da sua página (elemento h1) para Bem-vindo ao mundo dev?
+
+
+let cabecalho = document.querySelector('h1');
+cabecalho.innerHTML = 'Bem-vindo ao mundo dev';
+
+Tipo de Função	Exemplo de Código	Uso
+* Sem retorno e sem parâmetro
+function saudacao(){ ... }
+Execução de bloco de código simples.
+
+*Sem retorno e com parâmetro
+function cumprimentar(nome){ ... }
+Execução de bloco de código com argumentos.
+
+*Com retorno e sem parâmetro
+function gerarNumeroAleatorio(){ ... }
+Cálculo e retorno de um valor específico.
+
+*Com retorno e com parâmetro
+function somar(a, b){ ... }
+Cálculo e retorno baseado em argumentos.
+
+*Função anônima
+let saudacao = function() { ... };
+Definição de função sem nome localmente.
+
+*Arrow function
+let quadrado = x => x * x;
+Definição concisa de funções curtas.
+
+Desafios
+1 - Criar uma função que exibe "Olá, mundo!" no console.
+
+2 - Criar uma função que recebe um nome como parâmetro e exibe "Olá, [nome]!" no console.
+
+3 - Criar uma função que recebe um número como parâmetro e retorna o dobro desse número.
+
+4 - Criar uma função que recebe três números como parâmetros e retorna a média deles.
+
+5 - Criar uma função que recebe dois números como parâmetros e retorna o maior deles.
+
+6 - Criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo
+
+Alesangela, parabéns pela dedicação aos estudos! Você mencionou a manipulação de elementos HTML, como o H1 e o parágrafo (p), utilizando funções em JavaScript para atualizar o texto na página de forma dinâmica. Além disso, você falou sobre a função de gerar um número aleatório e comparar com o número digitado pelo usuário, retornando um valor booleano para informar se o usuário acertou ou não o número. Além disso, nesta aula, também criamos uma função em JavaScript que recebe dois parâmetros para gerar um número aleatório, entendendo como usar a estrutura de uma função para encapsular um trecho de código reutilizável. Utilizamos a palavra-chave "return" dentro da função para retornar o valor do número aleatório gerado. Também vimos a criação de outra função chamada `exibirMensagemInicialNaTela`, que não possui retorno nem parâmetros. Compreendemos a diferença entre funções com retorno e funções sem retorno e aprendemos como chamar e invocar a função para exibir uma mensagem inicial na tela. Além disso, discutimos como os parâmetros e retornos são importantes para a comunicação entre funções e o restante do programa. Continue estudando e praticando!
+
+Desafios
+1 - Crie uma função que calcule o índice de massa corporal (IMC) de uma pessoa, a partir de sua altura, em metros, e peso, em quilogramas, que serão recebidos como parâmetro.
+
+2 - Crie uma função que calcule o valor do fatorial de um número passado como parâmetro.
+
+3 - Crie uma função que converte um valor em dólar, passado como parâmetro, e retorna o valor equivalente em reais. Para isso, considere a cotação do dólar igual a R$4,80.
+
+4 - Crie uma função que mostre na tela a área e o perímetro de uma sala retangular, utilizando altura e largura que serão dadas como parâmetro.
+
+5 - Crie uma função que mostre na tela a área e o perímetro de uma sala circular, utilizando seu raio que será fornecido como parâmetro. Considere Pi = 3,14.
+
+6 - Crie uma função que mostre na tela a tabuada de um número dado como parâmetro.
+
+ 08
+O que aprendemos?
+PRÓXIMA ATIVIDADE
+
+Nesta aula:
+Aprendemos como criar um programa para verificar se o “chute” inserido é igual ao número secreto definido. Utilizamos estruturas condicionais para tomar decisões com base no resultado dessa comparação;
+
+Criamos uma variável para armazenar a quantidade de tentativas realizadas pelo usuário;
+
+Vimos a importância de consultar a documentação da linguagem e das bibliotecas utilizadas no desenvolvimento do programa. A documentação é uma fonte valiosa de informações que nos auxilia na compreensão de conceitos e no uso correto das funcionalidades disponíveis.
+
+Na próxima aula:
+Vamos aprender como funcionam as listas (ou arrays, em inglês) e como são fundamentais na carreira de desenvolvimento de software!
+
+Desafios
+Crie uma lista vazia, com o nome listaGenerica.
+Crie uma lista de linguagens de programação chamada linguagensDeProgramacao com os seguintes elementos: 'JavaScript','C','C++', 'Kotlin' e 'Python'.
+Adicione à lista linguagensDeProgramacao os seguintes elementos: 'Java', 'Ruby' e 'GoLang'.
+Crie uma lista com 3 nomes e exiba no console apenas o primeiro elemento.
+Crie uma lista com 3 nomes e exiba no console apenas o segundo elemento.
+Crie uma lista com 3 nomes e exiba no console apenas o último elemento.
+
+O que aprendemos?
+PRÓXIMA ATIVIDADE
+
+Nesta aula:
+Aprendemos a melhorar o código existente, tornando-o mais eficiente e legível. Neste caso, refatoramos a função que realiza o sorteio do número secreto, tornando-a mais robusta e garantindo que o número sorteado não seja repetido;
+Na próxima aula:
+Você terá a chance de colocar todo o conhecimento que adquiriu em prática resolvendo um desafio. Até lá, boa sorte!
